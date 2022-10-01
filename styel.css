@@ -1,0 +1,43 @@
+/*div{
+    margin: 0px auto;
+    display: table;
+}*/
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: red;
+}
+#pravugaonik1{
+    border: 1px solid blue;
+    text-align: center;
+    padding: 20px;
+    background-color:navy;
+}
+#pravugaonik2{
+    border: 1px dashed green;
+    text-align: right;
+    padding:10px 30px;
+    background-color: chocolate;
+}
+#pravugaonik3{
+    border:1px dotted red;
+    text-align: left;
+    padding:10px 30px 50px 70px;
+    background-color: lightslategrey;
+}
+#dugme{
+    margin-top: 50px;
+    text-transform: uppercase;
+    background-color: midnightblue;
+    color:firebrick;
+    padding:15px 30px;
+    font-size:16px;
+    border: none;
+    cursor: pointer;
+}
+#dugme:hover{
+    background-color: #47057075;
+}
